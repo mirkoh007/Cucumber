@@ -22,11 +22,6 @@ public class TagsStepDef {
         driver.get("https://sr-rs.facebook.com/");
     }
 
-//    @When("^User enters user email$")
-//    public void userEntersUserEmail() {
-//        driver.findElement(By.xpath("//input[@id='email']")).sendKeys("david@gmail.com");
-//    }
-
 //      first scenario
     @When("User enter email {string}")
     public void userEnterEmail(String email) throws InterruptedException {
@@ -40,13 +35,6 @@ public class TagsStepDef {
         driver.findElement(By.xpath("//input[@id='email']")).sendKeys(email);
         Thread.sleep(1500);
     }
-
-//    @And("^User enters password$")
-//    public void userEntersPassword() throws InterruptedException {
-//        driver.findElement(By.xpath("//input[@id=\"pass\"]")).sendKeys("1234");
-//        Thread.sleep(1500);
-//    }
-
 
     @And("User enters password {string}")
     public void userEntersPassword(String pass) throws InterruptedException {

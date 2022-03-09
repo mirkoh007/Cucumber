@@ -13,8 +13,8 @@ import org.junit.runner.RunWith;
                     "json:target/cucumber/json/parametrization-report.json",
                     "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
         },
-        dryRun = true,
-        monochrome = false
+        dryRun = false,
+        monochrome = true
 
 )
 public class RunMyParametrizationTest {

@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
                     "html:target/cucumber/html/sharingdata-reports.html",
                     "json:target/cucumber/json/sharingdata-report.json"},
         dryRun = false,
-        monochrome = false
+        monochrome = true
 
 )
 public class RunMySharingDataTest {

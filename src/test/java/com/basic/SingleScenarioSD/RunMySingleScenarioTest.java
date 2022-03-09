@@ -13,7 +13,8 @@ import org.junit.runner.RunWith;
                 "json:target/cucumber/json/singlescenrio-report.json",
                 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
         },
-        dryRun = false
+        dryRun = false,
+        monochrome = true
 )
 public class RunMySingleScenarioTest {
 }

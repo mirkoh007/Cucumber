@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
         dryRun = false,
 //        tags = "@Important",
         tags = "@Smoke or @Regression",
-        monochrome = false
+        monochrome = true
 
 )
 public class RunMyTagsTest {

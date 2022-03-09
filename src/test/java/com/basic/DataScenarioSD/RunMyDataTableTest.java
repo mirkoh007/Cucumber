@@ -14,7 +14,7 @@ import org.junit.runner.RunWith;
                 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
         },
         dryRun = true,
-        monochrome = false
+        monochrome = true
 
 )
 public class RunMyDataTableTest {
