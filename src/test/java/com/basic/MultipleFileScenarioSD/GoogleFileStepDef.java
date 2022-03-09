@@ -22,7 +22,7 @@ public class GoogleFileStepDef {
 
     @When("User enters search string")
     public void userEntersSearchString() throws InterruptedException {
-        driver.findElement(By.xpath("//input[@title='Претражи']")).sendKeys("selenium ");
+        driver.findElement(By.xpath("//input[@title='Search']")).sendKeys("selenium ");
         Thread.sleep(1500);
     }
 
