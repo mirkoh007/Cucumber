@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="com.basic.TagsSD.RunMyTagsTest" time="28.069" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="com.basic.TagsSD.RunMyTagsTest" time="34.071" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2021.3.2"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -61,8 +61,8 @@
     <property name="java.vendor.version" value="Temurin-17.0.2+8"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Check credentials on Facebook with parameters" name="Validating email field1" time="5.035"/>
-  <testcase classname="Check credentials on Facebook with parameters" name="Validate create user multiple fields2" time="6.585"/>
-  <testcase classname="Check credentials on Facebook with parameters" name="Validate create user multiple fields4" time="6.344"/>
-  <testcase classname="Check credentials on Facebook with parameters" name="Validate create user multiple fields5" time="10.105"/>
+  <testcase classname="Check credentials on Facebook with parameters" name="Validating email field1" time="7.362"/>
+  <testcase classname="Check credentials on Facebook with parameters" name="Validate create user multiple fields2" time="8.909"/>
+  <testcase classname="Check credentials on Facebook with parameters" name="Validate create user multiple fields4" time="8.962"/>
+  <testcase classname="Check credentials on Facebook with parameters" name="Validate create user multiple fields5" time="8.838"/>
 </testsuite>
